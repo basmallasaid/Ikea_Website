@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+   font-family:  sans-serif;
+}
+body{
+    background-image: url(log.jpg);
+    height: 100vh;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+h1{
+    text-align: center;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(255,255,255,0.1);
+    margin-top: 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    
+  }
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container input[type="email"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px  #FAF5EF;
+      box-sizing: border-box;
+      background-color:rgba(250, 245, 239);
+      border-radius: 10px;
+    }
+    .container input[type="submit"] {
+        background-color:#1d3557;
+        color: #fff;
+        padding: 14px 20px;
+        margin: 20px 100px;
+        border: none;
+        cursor: pointer;
+        width: 50%;
+        font-size: large;
+        border-radius: 10px; 
+      }
+      .container input[type="submit"]:hover{
+        background-color:rgba(250, 245, 239,0.1);
+      }
+      #username:hover,#password:hover{
+        background-color:rgba(250, 245, 239,0.1);
+      }
+a{
+    text-decoration: none;
+    
+    
+}
+a:hover{
+    color:rgba(53, 26, 0, 0.196);
+}
+p{
+    color:black;
+}
+@media (min-width:950px) and (max-width:1150px){
+    .container{
+        width: 100%;
+      
+    }
+}
+

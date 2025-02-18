@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+}
+.container-fluid{
+    background-color: #1d3557;
+    color: white;
+}
+.navbar-brand{
+    font-size: 35px;
+
+}
+.nav{
+    font-size: 25px;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 100px;
+
+}
+.container-fluid a{
+    color: white;
+    cursor: pointer;
+}
+.container-fluid a:hover{
+    color: #778da9;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(log.jpg); 
+    background-repeat: no-repeat;
+    background-size: covere;
+    background-position: right;
+    background-attachment: fixed;
+   
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top:100px ;
+    color: #1d3557;
+}
+p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.heading {
+    text-align: center;
+}
+.heading span{
+    font-size: 2rem;
+}
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0.5rem;
+    width: calc(100%3);
+}
+.image-wrapper{
+    height: 22vw;
+margin: 0 auto;
+}
+  
+.image-wrapper img{
+height: 100%;
+width: 100%;
+}
+  
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    color: #1d3557;
+    background-color: white;
+}
+.about-img img{
+    width: 30%;
+    border-radius: 10px;
+    object-fit: contain;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+    .about-img img{
+    width: 80%;
+    border-radius: 10px;
+    object-fit: contain;
+    }
+    .about-text span{
+        font-size: 50px;
+        font-weight: 500;
+        margin-left: 200px;
+        color: #1d3557;
+    }
+    .about-text p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+  .conn{
+font-size: 30px;
+color: black;
+font-weight: bold;
+  }
+  .card-body .btn-primary{
+    background-color:#1d3557 ;
+  }
+  .price{
+    text-align: end;
+    margin-left: 200px;
+  }
+    a{
+        color: #1d3557;
+    }
+    a:hover{
+        color: #778da9;
+    }
+    h6{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .dropdown-menu a{
+        color: #1d3557;
+    }
